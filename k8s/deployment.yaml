@@ -26,7 +26,7 @@ spec:
           mountPath: "/data/db"
         env:
         - name: TZ
-            value: "America/Recife"
+          value: "America/Recife"
         - name: MONGO_INITDB_ROOT_USERNAME
           valueFrom:
             secretKeyRef:
